@@ -2,7 +2,7 @@
 
 {% define data = {
     totalItems: _widget.totalItems,
-    sspAssets: _widget.sspAssets,
+    assets: _widget.sspAssets,
 } %}
 
 {% block body %}
@@ -10,7 +10,7 @@
         class: 'spacing-bottom--big spacing-x',
         data: {
             counter: data.totalItems,
-            sspAssets: data.sspAssets,
+            assets: data.assets,
         },
     } only %}
 {% endblock %}
